@@ -1,0 +1,12 @@
+{
+  "toplevel" : {
+    "key1": "Erster Schlüssel",
+    "key2": "$t(toplevel.key1)",
+    "key3": "Mit variable: {{val}}",
+    "sometext": [
+      "ul",
+      "  li A List Item",
+      "  li $t(toplevel.key1)"
+    ]
+  }
+}

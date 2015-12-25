@@ -1,0 +1,11 @@
+html
+  head
+  body
+    h3 These are working
+    p #{t('toplevel.key1')}
+    p #{t('toplevel.key2')}
+    p #{t('toplevel.key3', {val: 'VAL'})}
+    p #{t('toplevel.key3', {val: t('toplevel.key2')})}
+    h3 These are not working (but did in V1)
+    p #{t('toplevel.key3', '$t(toplevel.key2)')}
+    !=t('toplevel.sometext', { postProcess: 'jade' })

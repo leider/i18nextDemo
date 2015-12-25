@@ -1,0 +1,26 @@
+{
+  "name": "i18nextDemo",
+  "description": "a small demo of i18next with express and jade",
+  "version": "1.0.0",
+  "author": "Andreas Leidig",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leider/i18nextDemo"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "main": "",
+  "engines": {
+    "node": ">0.10"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "i18next": "2.0.8",
+    "i18next-express-middleware": "0.1.2",
+    "i18next-intervalplural-postprocessor": "0.0.8",
+    "i18next-node-fs-backend": "0.0.6",
+    "jade": "1.11.0"
+  },
+  "scripts": {
+    "start": "node app"
+  }
+}
